@@ -58,9 +58,9 @@ tribble(
 # Research and presentations
 1. The Distributional Effects of Monetary Policy: Evidence from Local Housing Markets with [Gianni La Cava](https://www.linkedin.com/in/gianni-la-cava-55271a35?originalSubdomain=au) (RBA Research Discussion Paper forthcoming)
     * Presented at: [Australian Conference of Economists (ACE) - Jul. 2019](https://www.ace2019.org.au/); RBA-RBNZ Workshop - Mar. 2019 
-    * In the press: [The areas most vulnerable to interest rate changes [Sydney Morning Herald]](https://www.smh.com.au/business/the-economy/the-areas-most-vulnerable-to-interest-rate-changes-20190715-p527gf.html)
+    * In the press: [The areas most vulnerable to interest rate changes](https://www.smh.com.au/business/the-economy/the-areas-most-vulnerable-to-interest-rate-changes-20190715-p527gf.html)
 2. Holding Productivity Accountable: The role of business dynamics in productivity growth
-    * Presented at: Economic Measurement Group Workshop - Nov. 2018 [[slides]](https://www.business.unsw.edu.au/research-site/centreforappliedeconomicresearch-site/Documents/emg2018-3_CHe_Holding-Productivity-Accountable-UNSW-EMG-Workshop.pdf)
+    * Presented at: [Economic Measurement Group Workshop - Nov. 2018](https://www.business.unsw.edu.au/research-site/centreforappliedeconomicresearch-site/Documents/emg2018-3_CHe_Holding-Productivity-Accountable-UNSW-EMG-Workshop.pdf)
 3.  Housing Wealth Effects: The Long View [(Guren, McKay, Nakamura, Steinsson 2018)](https://www.nber.org/papers/w24729) (an Australian replication)
     * Presented at: Sydney Macroeconomic Reading Group - Apr. 2019 
 
