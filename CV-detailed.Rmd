@@ -35,7 +35,7 @@ tribble(
 ```{r work experience}
 tribble(
   ~ dates, ~ position, ~ organisation, ~ details,
-  "May 2018 - present", "Research Economist", "Reserve Bank of Australia", "I work in the Reserve Bank's Economic Research department. I undertake longer-term research on the Australian economy and monetary policy.",
+  "May 2018 - present", "Research Economist", "Reserve Bank of Australia", "I undertake longer-term research on the Australian economy and monetary policy.",
   "May 2018 - present", "Research Economist", "Reserve Bank of Australia", "Research focus: monetary policy shocks and identification, heterogeneous effects of monetary policy, housing market dynamics, firm productivity and life-cycle, forecasting methods, and macrofinancial linkages.",
   "Feb. 2017 - May 2018", "Fixed Income Analyst", "Reserve Bank of Australia", "I worked in the Reserve Bank's Domestic Markets department, analysing fixed income activity in Australia or by Australian companies. This included daily monitoring of bond and derivative markets, and analytical work on long-term trends and relationships in securities pricing, issuance, and turnover.",
   "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Managed a course with over 1,000 students and a team of over 20 tutors.",
