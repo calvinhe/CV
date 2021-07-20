@@ -1,5 +1,6 @@
 ---
 name: Calvin He
+date: "`r format(Sys.time(), '%B, %Y')`"
 position: "Research Economist"
 address: "65 Martin Place, Sydney NSW 2000, Australia"
 email: "calvin.y.he@gmail.com"
@@ -34,13 +35,16 @@ tribble(
 ```{r work experience}
 tribble(
   ~ dates, ~ position, ~ organisation, ~ details,
-  "May 2018 - present", "Research Economist", "Reserve Bank of Australia", "I work in the Reserve Bank's Economic Research department. I undertake longer-term research on the Australian economy and monetary policy.",
+  "May 2018 - present", "Research Economist", "Reserve Bank of Australia", "I undertake longer-term research on the Australian economy and monetary policy.",
   "May 2018 - present", "Research Economist", "Reserve Bank of Australia", "Research focus: monetary policy shocks and identification, heterogeneous effects of monetary policy, housing market dynamics, firm productivity and life-cycle, forecasting methods, and macrofinancial linkages.",
-  "Feb. 2017 - May 2018", "Fixed Income Analyst", "Reserve Bank of Australia", "I worked in the Reserve Bank's Domestic Markets department, analysing fixed income activity in Australia or by Australian companies. This included daily monitoring of bond and derivative markets and analytical work on long-term trends and relationships in securities pricing, issuance, and turnover.",
-  "Feb. 2016 - Oct. 2016", "Tutor-in-Charge", "University of New South Wales - School of Economics", "Managed a course with over 1,000 students and a team of over 20 tutors.",
-  "Feb. 2016 - Oct. 2016", "Tutor-in-Charge", "University of New South Wales - School of Economics", "Awarded the 2016 UNSW Business School Excellence in Tutoring Award.",
+  "Feb. 2017 - May 2018", "Fixed Income Analyst", "Reserve Bank of Australia", "I worked in the Reserve Bank's Domestic Markets department, analysing fixed income activity in Australia or by Australian companies. This included daily monitoring of bond and derivative markets, and analytical work on long-term trends and relationships in securities pricing, issuance, and turnover.",
+  "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Managed a course with over 1,000 students and a team of over 20 tutors.",
+  "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Awarded the 2016 UNSW Business School Excellence in Tutoring Award.",
    "Mar. 2015 - present", "Tutor/Demonstrator", "University of New South Wales - School of Economics", "Tutor for Microeconomics 1 (Econ1101) - 2015 (S1 and S2), 2016 (S1 and S2), 2019 (T1 and T2).",
-     "Mar. 2015 - present", "Tutor/Demonstrator", "University of New South Wales - School of Economics", "Student satisfaction: 92%."
+     "Mar. 2015 - present", "Tutor/Demonstrator", "University of New South Wales - School of Economics", "Student satisfaction: 92%.",
+  "Jul. 2014 - Nov. 2015", "Policy Research Assistant", "FINSIA", "I analysed and produced policy strategies on issues relating to the financial services sector such as superannuation, tax reform and financial advice.",
+  "Feb. 2013 - Nov. 2013", "Peer-Assisted Support Scheme (PASS) Leader", "University of New South Wales - School of Economics" , "With various PASS leaders, I communicated and delivered content to students for an introductory statistics course in a workshop setting.",
+  "Jun. 2012 - Dec. 2013", "Maths and Economics Coach", "Art of Smart Education", "I privately coached high school students, ranging from years 8 to 12, in maths and/or economics."
   
 ) %>% 
   detailed_entries(
@@ -52,12 +56,13 @@ tribble(
 ```
 
 # Research and presentations
-1. The Distributional Consequences of Monetary Policy: Evidence from Local Housing Markets with [Gianni La Cava](https://www.linkedin.com/in/gianni-la-cava-55271a35?originalSubdomain=au) (RBA RDP forthcoming)
+1. Monetary Policy, Equity Markets and the Information Effect [(RBA Research Discussion Paper 2021-04)](https://www.rba.gov.au/publications/rdp/2021/2021-04.html)
+2. The Distributional Effects of Monetary Policy: Evidence from Local Housing Markets with [Gianni La Cava](https://www.linkedin.com/in/gianni-la-cava-55271a35?originalSubdomain=au) [(RBA Research Discussion Paper 2020-02)](https://www.rba.gov.au/publications/rdp/2020/2020-02.html)
     * Presented at: [Australian Conference of Economists (ACE) - Jul. 2019](https://www.ace2019.org.au/); RBA-RBNZ Workshop - Mar. 2019 
     * In the press: [The areas most vulnerable to interest rate changes](https://www.smh.com.au/business/the-economy/the-areas-most-vulnerable-to-interest-rate-changes-20190715-p527gf.html)
-2. Holding Productivity Accountable: The role of business dynamics in productivity growth
+3. Holding Productivity Accountable: The role of business dynamics in productivity growth
     * Presented at: [Economic Measurement Group Workshop - Nov. 2018](https://www.business.unsw.edu.au/research-site/centreforappliedeconomicresearch-site/Documents/emg2018-3_CHe_Holding-Productivity-Accountable-UNSW-EMG-Workshop.pdf)
-3.  Housing Wealth Effects: The Long View [(Guren, McKay, Nakamura, Steinsson 2018)](https://www.nber.org/papers/w24729) (an Australian replication)
+4.  Housing Wealth Effects: The Long View [(Guren, McKay, Nakamura, Steinsson 2018)](https://www.nber.org/papers/w24729) (an Australian replication)
     * Presented at: Sydney Macroeconomic Reading Group - Apr. 2019 
 
 # Skills
@@ -65,7 +70,7 @@ tribble(
 tribble(
   ~dates, ~role,
   "Programming", "R (preferred), SQL, Matlab, STATA, EViews",
-  "Software Development", "git, R package development, CI/CD, github, Team Foundation Server",
+  "Software Development", "git, R package development, CI/CD, github, Azure DevOps",
 ) %>% 
   brief_entries(when = dates, what= role)
 ```
@@ -73,7 +78,9 @@ tribble(
 # Awards and prizes
 ```{r awards}
 tribble( ~ date, ~ award, ~details,
+        "2020", "Governor's Award of Excellence", "RBA",
         "2016", "University Medal (Economics)", "UNSW",
+        "2016", "First Class Honours (Economics)", "UNSW",
         "2016", "UNSW Business School Excellence in Tutoring Award", "UNSW",
         "2016", "Herbert Smith Freehills Law and Economics Honours Scholarship", "UNSW",
         "2016", "UNSW Business School Honours Scholarship", "UNSW",
@@ -102,11 +109,16 @@ tribble(
 ```{r other_roles}
 tribble(
   ~dates, ~role, ~ with,
-  "2019", "Sydney Macroeconomic Reading Group coordinator", "Reserve Bank of Australia", 
+  "2019-current", "Sydney Macroeconomic Reading Group coordinator", "Reserve Bank of Australia", 
   "2019", "RBA Conference Discussion editor", "Reserve Bank of Australia",
   "2019", "Public Education and Access ambassador", "Reserve Bank of Australia",
   "2019", "R User Group founder and coordinator", "Reserve Bank of Australia",
-  "2018-19", "Internal seminar coordinator", "Reserve Bank of Australia"
+  "2019", "Aboriginal and Indigenous Employee Resource Group member",  "Reserve Bank of Australia",
+  "2018-19", "Internal seminar coordinator", "Reserve Bank of Australia",
+  "2018-19", "Summer intern supervisor", "Reserve Bank of Australia",
+  "2018", "Career Trackers Indigenous intern  supervisor", "Reserve Bank of Australia",
+  "2014-15", "UNSW Policy Society founder and president", "UNSW",
+  "2013", "180 Degrees consultant", "UNSW"
 ) %>% 
   brief_entries(when = dates, what= role, with = with)
 
