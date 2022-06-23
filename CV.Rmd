@@ -3,7 +3,7 @@ name: Calvin He
 date: "`r format(Sys.time(), '%B, %Y')`"
 position: "PhD Student"
 email: "calvinhe@stanford.edu"
-phone: +1 650 283 3769
+phone: 
 headcolor: 414141
 output: 
   vitae::moderncv:
