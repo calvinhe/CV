@@ -25,8 +25,7 @@ tribble(
   "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "Honours thesis: Sovereign Default Risk and the Fiscal Spending Multiplier",
     "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "Supervisors: Richard Holden, Mariano Kulish and James Morley",
   "BEc/Com in Economics, Econometrics and Finance", "University of New South Wales", "Australia", "2012 - 2015", "WAM: 89.11",
-  "BEc (International exchange)", "University of California, Los Angeles", "USA", "Jan. - Jun. 2014", "GPA: 3.96",
-  "Higher School Certificate", "Sydney Technical High School", "Australia", "2006 - 2011", "ATAR: 99.35"
+  "BEc (International exchange)", "University of California, Los Angeles", "USA", "Jan. - Jun. 2014", "GPA: 3.96"
 ) %>% 
   detailed_entries(with = degree, dates, what = uni, loc, details)
 ```
@@ -41,10 +40,7 @@ tribble(
   "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Managed a course with over 1,000 students and a team of over 20 tutors.",
   "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Awarded the 2016 UNSW Business School Excellence in Tutoring Award.",
    "Mar. 2015 - Jun. 2020", "Tutor/Demonstrator", "University of New South Wales - School of Economics", "Tutor for Microeconomics 1 (Econ1101) - 2015 (S1 and S2), 2016 (S1 and S2), 2019 (T1 and T2).",
-     "Mar. 2015 - Jun. 2020", "Tutor/Demonstrator", "University of New South Wales - School of Economics", "Student satisfaction: 92%.",
-  "Jul. 2014 - Nov. 2015", "Policy Research Assistant", "FINSIA", "I analysed and produced policy strategies on issues relating to the financial services sector such as superannuation, tax reform and financial advice.",
-  "Feb. 2013 - Nov. 2013", "Peer-Assisted Support Scheme (PASS) Leader", "University of New South Wales - School of Economics" , "With various PASS leaders, I communicated and delivered content to students for an introductory statistics course in a workshop setting.",
-  "Jun. 2012 - Dec. 2013", "Maths and Economics Coach", "Art of Smart Education", "I privately coached high school students, ranging from years 8 to 12, in maths and/or economics."
+     "Mar. 2015 - Jun. 2020", "Tutor (Teaching Assistant)", "University of New South Wales - School of Economics", "Student satisfaction: 92%."
   
 ) %>% 
   detailed_entries(
