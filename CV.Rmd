@@ -1,8 +1,8 @@
 ---
 name: Calvin He
 date: "`r format(Sys.time(), '%B, %Y')`"
-position: "PhD Student"
-email: "calvinhe@stanford.edu"
+position: "PhD Candidate"
+email: "calvinhe [at] stanford [dot] edu"
 phone: 
 headcolor: 414141
 output: 
@@ -20,7 +20,7 @@ library(vitae)
 library(tibble)
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "PhD in Economics", "Stanford University", "USA", "2020-", "Fields (Planned): Macroeconomics and Finance",
+  "PhD in Economics", "Stanford University", "USA", "2021-Present", "Fields (Planned): Macroeconomics and Finance",
   "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "University Medal and First Class honours; WAM: 92.33",
   "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "Honours thesis: Sovereign Default Risk and the Fiscal Spending Multiplier",
     "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "Supervisors: Richard Holden, Mariano Kulish and James Morley",
