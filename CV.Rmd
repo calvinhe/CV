@@ -20,12 +20,11 @@ library(vitae)
 library(tibble)
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "PhD in Economics", "Stanford University", "USA", "2021-Present", "Fields (Planned): Macroeconomics and Finance",
-  "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "University Medal and First Class honours; WAM: 92.33",
-  "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "Honours thesis: Sovereign Default Risk and the Fiscal Spending Multiplier",
-    "BEc (Hons) in Economics", "University of New South Wales", "Australia", "2016", "Supervisors: Richard Holden, Mariano Kulish and James Morley",
-  "BEc/Com in Economics, Econometrics and Finance", "University of New South Wales", "Australia", "2012 - 2015", "WAM: 89.11",
-  "BEc (International exchange)", "University of California, Los Angeles", "USA", "Jan. - Jun. 2014", "GPA: 3.96"
+  "PhD in Economics", "Stanford University", "USA", "2021-2027 (expected)", "Fields: Macroeconomics and Finance",
+  "BCom/BEc (Hons) in Economics", "University of New South Wales", "Australia", "2012-2016", "University Medal and First Class honours (WAM: 89.75)",
+  "BCom/BEc (Hons) in Economics", "University of New South Wales", "Australia", "2012-2016", "Honours thesis: Sovereign Default Risk and the Fiscal Spending Multiplier",
+  "BCom/BEc (Hons) in Economics", "University of New South Wales", "Australia", "2012-2016", "Supervisors: Richard Holden, Mariano Kulish and James Morley",
+  "BCom/BEc (Hons) in Economics", "University of New South Wales", "Australia", "2012-2016", "Jan. - Jun. 2014: International exchange at University of California, Los Angeles (GPA: 3.96)"
 ) %>% 
   detailed_entries(with = degree, dates, what = uni, loc, details)
 ```
@@ -34,12 +33,15 @@ tribble(
 ```{r work experience}
 tribble(
   ~ dates, ~ position, ~ organisation, ~ details,
-  "May 2018 - Aug. 2021", "Research Economist", "Reserve Bank of Australia", "I undertake longer-term research on the Australian economy and monetary policy.",
-  "May 2018 - Aug. 2021", "Research Economist", "Reserve Bank of Australia", "Research focus: monetary policy shocks and identification, heterogeneous effects of monetary policy, housing market dynamics, firm productivity and life-cycle, forecasting methods, and macrofinancial linkages.",
-  "Feb. 2017 - May 2018", "Fixed Income Analyst", "Reserve Bank of Australia", "I worked in the Reserve Bank's Domestic Markets department, analysing fixed income activity in Australia or by Australian companies. This included daily monitoring of bond and derivative markets, and analytical work on long-term trends and relationships in securities pricing, issuance, and turnover.",
-  "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Managed a course with over 1,000 students and a team of over 20 tutors.",
+  
+  "Jun. 2022 - present" , "Research Assistant", "Stanford University", "Research assistant for Adrien Auclert.",
+  "Sept. 2023 - present" , "Teaching Assistant", "Stanford University", "Econ 102A (Fall '23), Econ 211 (Winter '23), Econ 43 (Spring '24).",
+  "May 2018 - Aug. 2021", "Research Economist", "Reserve Bank of Australia", "I performed longer-term research on the Australian economy and monetary policy.",
+  "May 2018 - Aug. 2021", "Research Economist", "Reserve Bank of Australia", "Research focus: monetary policy, financial frictions, housing market dynamics, firm productivity and life-cycle and forecasting methods.",
+  "Feb. 2017 - May 2018", "Fixed Income Analyst", "Reserve Bank of Australia", "I worked in the Reserve Bank's Domestic Markets department, analysing fixed income activity in Australia and by Australian companies. This included daily monitoring of bond and derivative markets, and analytical work on long-term trends and relationships in securities pricing, issuance, and turnover.",
+  "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Facilitated implementation of course with over 1,000 students and managed a team of over 20 tutors.",
   "Feb. 2016 - Oct. 2016", "Tutor-in-charge", "University of New South Wales - School of Economics", "Awarded the 2016 UNSW Business School Excellence in Tutoring Award.",
-   "Mar. 2015 - Jun. 2020", "Tutor/Demonstrator", "University of New South Wales - School of Economics", "Tutor for Microeconomics 1 (Econ1101) - 2015 (S1 and S2), 2016 (S1 and S2), 2019 (T1 and T2).",
+   "Mar. 2015 - Jun. 2020", "Tutor/Demonstrator", "University of New South Wales - School of Economics", "Tutor for Microeconomics 1 (Econ1101): 2015, 2016, and 2019 (T1 and T2).",
      "Mar. 2015 - Jun. 2020", "Tutor (Teaching Assistant)", "University of New South Wales - School of Economics", "Student satisfaction: 92%."
   
 ) %>% 
@@ -51,7 +53,12 @@ tribble(
   )
 ```
 
-# Research and presentations
+# In progress
+
+1. Nominal Exposures, Monetary Policy and Investment (joint with Otavio Rubiao)
+2. Policy Evaluation with Heterogeneous Agents (joint with Raman Singh Chhina)
+
+# Policy papers and presentations
 1. Monetary Policy, Equity Markets and the Information Effect ([\textcolor{blue}{RBA Research Discussion Paper 2021-04)}](https://www.rba.gov.au/publications/rdp/2021/2021-04.html))
 
 \quad \textit{Abstract: Central banks analyse copious amounts of information to assess the economic outlook to then set monetary policy. So, could changes in monetary policy reveal some additional information about the economic outlook to the public? This channel is known as the ‘information effect’. The information effect posits that, in addition to the usual effects of monetary policy, agents interpret an interest rate increase as signalling some additional positive economic information. This effect, if strong enough, could then lead to dynamics where an increase in interest rates causes an expansion in economic activity.}\par
@@ -65,15 +72,12 @@ tribble(
    
 3. Holding Productivity Accountable: The role of business dynamics in productivity growth
     * Presented at: [Economic Measurement Group Workshop - Nov. 2018](https://www.business.unsw.edu.au/research-site/centreforappliedeconomicresearch-site/Documents/emg2018-3_CHe_Holding-Productivity-Accountable-UNSW-EMG-Workshop.pdf)
-4.  Housing Wealth Effects: The Long View [(Guren, McKay, Nakamura, Steinsson 2018)](https://www.nber.org/papers/w24729) (an Australian replication)
-    * Presented at: Sydney Macroeconomic Reading Group - Apr. 2019 
 
 # Skills
 ```{r skills}
 tribble(
   ~dates, ~role,
-  "Programming", "R (preferred), SQL, Matlab, STATA, EViews",
-  "Software Development", "git, R package development, CI/CD, github, Azure DevOps",
+  "Programming", "R (preferred), Python (preferred), Julia, SQL, Matlab"
 ) %>% 
   brief_entries(when = dates, what= role)
 ```
